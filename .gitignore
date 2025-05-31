@@ -1,0 +1,70 @@
+# Compiled class files
+*.class
+
+# Maven target directory
+/target/
+
+# Gradle build directories
+/build/
+/.gradle/
+
+# IntelliJ IDEA
+*.iml
+.idea/
+out/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# VS Code
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# JPA (persistence.xml output, if copied)
+META-INF/persistence.xml
+
+# Environment variables or config
+.env
+*.properties.local
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# JSP compiled output
+*.jsp.class
+
+# Tomcat specific
+**/work/
+**/temp/
+**/logs/
+**/conf/Catalina/
+**/webapps/examples/
+**/webapps/docs/
+**/webapps/host-manager/
+**/webapps/manager/
+**/webapps/ROOT/
+
+# Local Tomcat config or deployments
+*.war
+*.ear
+*.sar
+*.jar
